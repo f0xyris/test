@@ -1,8 +1,11 @@
+import { MouseEventHandler } from "react"
+
 export interface CustomButtonProps {
     title: string
     containerStyles?: string
     textColor: string
     active: boolean
+    handleClick?: MouseEventHandler<HTMLButtonElement>
 }
 
 export interface TransitioningState {
@@ -15,4 +18,11 @@ export interface TransitioningState {
 export interface TimeDisplayProps {
   targetDate: string
   showSeconds?: boolean
+}
+
+export interface ItemProps {
+  id: string;
+  imgSrc: string;
+  title: string;
+  description: string;
 }

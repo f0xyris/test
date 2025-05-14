@@ -115,7 +115,6 @@ const CountdownFull: React.FC<CountdownFullProps> = ({ showSeconds = true }) => 
               <a target="_blank" href="https://premiercharityopen.com/index">
                 <CustomButton
                   active={false}
-                  handleClick={undefined}
                   textColor="text-white"
                   title="Buy Tickets"
                   containerStyles="relative flex items-center justify-center text-nowrap border text-center transition-colors
@@ -165,7 +164,6 @@ const CountdownFull: React.FC<CountdownFullProps> = ({ showSeconds = true }) => 
               <a target="_blank" href="https://premiercharityopen.com/index">
                 <CustomButton
                   active={false}
-                  handleClick={undefined}
                   textColor="text-white"
                   title="Buy Tickets"
                   containerStyles="relative flex items-center justify-center text-nowrap border text-center transition-colors
