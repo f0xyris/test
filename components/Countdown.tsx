@@ -135,7 +135,7 @@ const CountdownFull: React.FC<CountdownFullProps> = ({ showSeconds = true }) => 
                 viewport={{ once: true, amount: 0.3 }}
                 className="relative flex flex-col items-center justify-center min-h-28 w-full rounded-xl bg-white/10 text-center lg:aspect-square lg:size-28 lg:min-w-28 overflow-hidden"
               >
-                <div className="mt-2 text-xl">{part.label}</div>
+                <div className="mt-2 lg:text-xl text-sm">{part.label}</div>
 
                 <div className="relative h-10">
                   <AnimatePresence mode="wait">
